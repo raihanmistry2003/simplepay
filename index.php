@@ -1,6 +1,6 @@
 <?php
 require_once 'constant.php';
-include('templates/header.php');
+include('header.php');
 ?>
 <form name="razorpay_frm_payment" class="razorpay-frm-payment" id="razorpay-frm-payment" method="post">
 <input type="hidden" name="merchant_order_id" id="merchant_order_id" value="12345">
@@ -63,7 +63,7 @@ include('templates/header.php');
 </div>
 </section>
 </form>
-<?php include('templates/footer.php');?>
+<?php include('footer.php');?>
 <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
 <script type="text/javascript">
   jQuery(document).on('click', '#razor-pay-now', function (e) {
